@@ -1,0 +1,210 @@
+/*********************************
+GENERAL
+********************************/
+
+body {
+	width: 100%;
+	background: #966f33;
+	font-family: Abel, "Shadow into light", "Indie Flower", Lora, "PT Sans Narrow", "Open Sans Condessed", "san-serif";
+
+}
+
+ul {
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	background: #EBF4FA;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+
+
+
+#header {
+	width: 100%;
+	margin-top: -30px;
+	width: 100%;
+	text-align: center;
+	background: #000;
+	color: #fff;
+	float: left;
+	margin-left: -8px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid white;
+}
+
+
+
+#header h1 {
+	font-size: 36px;
+	line-height: 48px;
+}
+
+#header h2 {
+	margin-top: -25px;
+	font-size: 18px;
+	font-weight: normal;
+	color: white;
+}
+
+#nav a.selected, #nav a:hover {
+	color: #B6B6B4;
+}
+#nav {
+	/*background: #EBF4FA;*/
+	font-size: 16px;
+	padding: 0;
+	color: #fff;
+}
+
+#nav ul li {
+	display: inline-block;
+	padding: 0 6px;
+	border-left: 3px solid #888888;
+}
+
+#nav ul li:first-child {
+	border-left: none;
+}
+
+/***********************************
+CONTENT
+***********************************/
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "PT Sans Narrow", "Open Sans Condessed", serif;
+	font-weight: bold;
+}
+#gallery li {
+	float: left;
+	width: 40%;
+	margin: 2.5%;
+	padding-bottom: 50px;
+}
+#gallery li:nth-child(3n) {
+	clear: left;
+}
+
+#gallery p {
+	padding: 5px;
+}
+#gallery li a {
+	color: black;
+}
+
+#gallery li a p {
+	margin: 0;
+	padding: 0;
+	font-size: 0.75em;
+}
+
+
+
+footer {
+	text-align: center;
+	clear: both;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+
+
+
+/****************************************
+PAGE ABOUT
+****************************************/
+
+.profile-photo {
+	display: block;
+	max-width: 150px;
+	margin: 20px auto 30px;
+	border-radius: 100%;
+	clear: both;
+	padding-top: 20px;
+}
+
+#aboutMe h3 {
+	margin: 0 0 1em 10px;
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+#aboutMe p {
+	padding: 5px;
+	font-size: 18px;
+}
+
+
+
+/****************************************
+PAGE CONTACT
+****************************************/
+
+#primary, #secondary {
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#primary h3 {
+	font-size: 24px;
+}
+
+#secondary {
+	padding-right: 20px;
+}
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+.contact-info li a {
+	color: black;
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+/*.contact-info ul li {
+	display: block;
+}*/
+
+.contact-info li.phone a {
+	background-image: url('../img/phone.png'); 
+}
+
+.contact-info li.email a {
+	background-image: url('../img/mail.png'); 
+}
+
+
+.contact-info li.twitter a {
+	background-image: url('../img/twitter.png'); 
+}
+
+
+
+
