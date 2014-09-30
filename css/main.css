@@ -100,13 +100,12 @@ CONTENT
 	clear: left;
 }
 
-<<<<<<< HEAD
+
 #gallery li:nth-child(6n) {
 	clear: right;
 }
 
-=======
->>>>>>> d347bed9429ea248c0e5bad5dd563346c165eb8f
+
 #gallery p {
 	padding: 5px;
 }
