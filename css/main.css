@@ -100,6 +100,10 @@ CONTENT
 	clear: left;
 }
 
+#gallery li:nth-child(6n) {
+	clear: right;
+}
+
 #gallery p {
 	padding: 5px;
 }
